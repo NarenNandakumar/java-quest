@@ -7,11 +7,13 @@ import CodeAnimation from '@/components/home/CodeAnimation';
 import Impact from '@/components/home/Impact';
 import Contact from '@/components/home/Contact';
 import Programs from '@/components/home/Programs';
+import APSuccessSection from '@/components/home/APSuccessSection';
 
 const Index = () => {
   return (
     <Layout>
       <Hero />
+      <APSuccessSection />
       <Features />
       <AboutPreview />
       <Programs />

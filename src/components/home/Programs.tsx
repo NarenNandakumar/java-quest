@@ -1,7 +1,7 @@
 
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Link } from 'react-router-dom';
+import { ExternalLink } from 'lucide-react';
 
 const Programs = () => {
   const programs = [
@@ -20,6 +20,8 @@ const Programs = () => {
       price: '$15/month'
     }
   ];
+
+  const enrollmentFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdDVqZBOuSZVfkB5-4AqqAWDni1vjAIHMETCuAXKfnPaD0XFA/viewform?usp=sharing&ouid=111291158362256036501";
 
   return (
     <section className="py-20 bg-white" id="programs">
@@ -48,8 +50,18 @@ const Programs = () => {
                 </div>
               </CardContent>
               <CardFooter>
-                <Button asChild className="w-full bg-javaquest-teal hover:bg-javaquest-teal/90">
-                  <Link to="/#contact">Enroll Now</Link>
+                <Button
+                  asChild
+                  className="w-full bg-javaquest-teal hover:bg-javaquest-teal/90"
+                >
+                  <a 
+                    href={enrollmentFormUrl}
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center"
+                  >
+                    Enroll Now <ExternalLink className="ml-1" size={16} />
+                  </a>
                 </Button>
               </CardFooter>
             </Card>

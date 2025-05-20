@@ -52,7 +52,13 @@ const About = () => {
                 <h3 className="text-2xl font-bold text-javaquest-blue mb-2">Naren Nandakumar</h3>
                 <p className="text-gray-500 mb-4">Co-Founder & Technical Director</p>
                 <p className="text-gray-600">
-                  With 15 years of experience in Java development and a passion for teaching, Naren leads our curriculum development and ensures our students receive top-notch technical education.
+                  Hello, I'm Naren Nandakumar and I have been programming for more than 5 years now! 
+                  Having learnt AP CSA in 9th grade and teaching it since, I have almost 3 years of 
+                  experience teaching and know exactly what students need the most to succeed in their class. 
+                  Some of my accomplishments include programming an optimal maze solver, a graphing calculator 
+                  application, an optimal tic-tac-toe agent, 3D voxel video game, and a health app with the 
+                  sole goal of reducing the barrier to affordable healthcare. I love computer science and 
+                  the opportunity to brighten those on its path!
                 </p>
               </CardContent>
             </Card>
@@ -70,7 +76,13 @@ const About = () => {
                 <h3 className="text-2xl font-bold text-javaquest-blue mb-2">Manu Pradeep</h3>
                 <p className="text-gray-500 mb-4">Co-Founder & Impact Director</p>
                 <p className="text-gray-600">
-                  Manu combines his background in non-profit management with technical expertise to oversee our charitable initiatives and ensure that JavaQuest creates meaningful impact globally.
+                  Hello, I'm Manu Pradeep, a Junior going to Lone Star High School in Texas. I love to code, 
+                  and help other people. I co-founded JavaQuest in order to help other students to not only 
+                  grasp how coding works, but also help them excel in their future classes. I have taught 
+                  students coding in Java for the past 2 years. I have prior experience in the AP Computer 
+                  Science A, as I took the class and excelled on the test. I've made an online guitar 
+                  simulator, a sound visualizer, a sandbox game, 2D platformer game, and a visualizer of 
+                  the game of life. I hope that everyone I teach will excel in the world of computer science.
                 </p>
               </CardContent>
             </Card>

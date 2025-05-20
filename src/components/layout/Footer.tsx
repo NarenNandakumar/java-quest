@@ -50,8 +50,8 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-4">Connect With Us</h3>
             <address className="not-italic text-gray-300">
-              <p>Email: info@javaquest.org</p>
-              <p>Phone: (555) 123-4567</p>
+              <p>Email: naren.nanda08@gmail.com</p>
+              <p>Phone: 214-536-5483</p>
             </address>
             <div className="mt-4 flex space-x-4">
               {/* Social media icons would go here */}

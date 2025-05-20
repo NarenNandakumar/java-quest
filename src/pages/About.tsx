@@ -65,12 +65,12 @@ const About = () => {
             
             {/* Founder 2 */}
             <Card className="border-none shadow-lg overflow-hidden">
-              <div className="aspect-square bg-javaquest-teal relative">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-white text-2xl font-bold">
-                    [Manu's Photo]
-                  </div>
-                </div>
+              <div className="aspect-square relative overflow-hidden">
+                <img 
+                  src="/lovable-uploads/aae73d51-3df0-4bc7-961a-31d1e3f50854.png" 
+                  alt="Manu Pradeep" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-2xl font-bold text-javaquest-blue mb-2">Manu Pradeep</h3>

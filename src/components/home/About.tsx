@@ -1,6 +1,7 @@
 
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
 const AboutPreview = () => {
   return (
@@ -26,6 +27,16 @@ const AboutPreview = () => {
             <p className="text-gray-600 mb-6">
               Every course you take with us helps fund important causes like education, healthcare, and environmental conservation in communities around the world.
             </p>
+            <div className="flex items-center space-x-4 mb-6">
+              <Avatar className="h-12 w-12 border-2 border-javaquest-blue">
+                <AvatarFallback>NN</AvatarFallback>
+              </Avatar>
+              <Avatar className="h-12 w-12 border-2 border-javaquest-blue">
+                <AvatarImage src="/lovable-uploads/aae73d51-3df0-4bc7-961a-31d1e3f50854.png" alt="Manu Pradeep" />
+                <AvatarFallback>MP</AvatarFallback>
+              </Avatar>
+              <span className="text-sm text-gray-500">Our founders</span>
+            </div>
             <Button asChild className="bg-javaquest-blue hover:bg-javaquest-blue/90">
               <Link to="/about">Read Our Full Story</Link>
             </Button>

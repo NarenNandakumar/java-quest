@@ -3,49 +3,23 @@ import Layout from '@/components/layout/Layout';
 import { Card, CardContent } from '@/components/ui/card';
 
 const Testimonials = () => {
-  // Placeholder testimonials - these would be replaced with real content later
+  // Updated testimonials with real content
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "Software Developer",
-      company: "Tech Innovations",
-      image: "placeholder1",
-      quote: "JavaQuest's curriculum was exactly what I needed to transition into a Java development role. The instructors were knowledgeable and supportive, and knowing my tuition was helping others made the experience even more rewarding."
+      name: "Sohum",
+      quote: "This class was great with slides that were very well organized with detailed explanations. I had fun learning."
     },
     {
-      name: "Michael Chen",
-      role: "Computer Science Student",
-      company: "University of Technology",
-      image: "placeholder2",
-      quote: "As a CS student, I wanted to deepen my Java skills beyond what my university courses offered. JavaQuest provided practical, hands-on learning that prepared me for my internship and made me feel good about contributing to charitable causes."
+      name: "Riaan",
+      quote: "This class was excellent; they taught us in a way that we could understand everything. This overall class was really good, and it felt like the teachers were doing a college course themselves."
     },
     {
-      name: "Priya Patel",
-      role: "QA Engineer",
-      company: "SoftwareWorks Inc.",
-      image: "placeholder3",
-      quote: "Learning Java through JavaQuest helped me automate testing processes at my company and advance in my career. The community aspect and social impact of the program added an extra dimension that I didn't find in other coding courses."
+      name: "Sanaa",
+      quote: "I would say my experience was really great since I learned lots of information and it helped me understand Java programming better. The teaching was amazing as well."
     },
     {
-      name: "David Rodriguez",
-      role: "IT Specialist",
-      company: "Global Solutions",
-      image: "placeholder4",
-      quote: "I had tried other programming courses before, but JavaQuest's approach finally made Java click for me. The real-world projects and supportive instructors made all the difference. Plus, it feels great knowing my tuition is helping important causes."
-    },
-    {
-      name: "Emma Wilson",
-      role: "Career Changer",
-      company: "FinTech Startup",
-      image: "placeholder5",
-      quote: "After 10 years in marketing, I decided to switch to programming. JavaQuest not only taught me the skills I needed but also helped me land my first developer job. The dual mission of education and charity aligned perfectly with my values."
-    },
-    {
-      name: "James Taylor",
-      role: "Web Developer",
-      company: "Creative Digital",
-      image: "placeholder6",
-      quote: "Adding Java to my web development skillset opened up so many opportunities. JavaQuest's focused curriculum and project-based learning approach were exactly what I needed. I recommend their courses to everyone I know in tech."
+      name: "Tanvi",
+      quote: "The lessons helped when learning the basics of Java. I was able to understand most of the topics and all my questions were answered."
     }
   ];
 
@@ -68,22 +42,14 @@ const Testimonials = () => {
             Our students come from diverse backgrounds and career stages, but they all share one thing: they've found success through our Java programming courses while making a positive impact on the world.
           </p>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {testimonials.map((testimonial, index) => (
               <Card key={index} className="shadow-lg border-none h-full">
                 <CardContent className="p-8 flex flex-col h-full">
-                  <div className="mb-6 flex items-center">
-                    <div className="h-16 w-16 rounded-full bg-gray-200 flex items-center justify-center mr-4">
-                      <span className="text-gray-500 text-sm">[Photo]</span>
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-javaquest-blue">{testimonial.name}</h3>
-                      <p className="text-sm text-gray-500">{testimonial.role}, {testimonial.company}</p>
-                    </div>
-                  </div>
                   <div className="flex-grow">
                     <div className="text-5xl text-javaquest-teal mb-4">"</div>
-                    <p className="text-gray-600 italic mb-4">{testimonial.quote}</p>
+                    <p className="text-gray-600 italic mb-6">{testimonial.quote}</p>
+                    <p className="font-bold text-javaquest-blue text-right">- {testimonial.name}</p>
                   </div>
                 </CardContent>
               </Card>
@@ -95,7 +61,7 @@ const Testimonials = () => {
               Ready to join our community of successful Java developers?
             </p>
             <a 
-              href="/#contact" 
+              href="/programs" 
               className="inline-block bg-javaquest-orange hover:bg-javaquest-orange/90 text-white font-medium py-3 px-6 rounded-md transition-colors"
             >
               Start Your Journey Today

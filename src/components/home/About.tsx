@@ -29,6 +29,7 @@ const AboutPreview = () => {
             </p>
             <div className="flex items-center space-x-4 mb-6">
               <Avatar className="h-12 w-12 border-2 border-javaquest-blue">
+                <AvatarImage src="/lovable-uploads/34216a92-321c-41a1-961e-c1a55736da99.png" alt="Naren Nandakumar" />
                 <AvatarFallback>NN</AvatarFallback>
               </Avatar>
               <Avatar className="h-12 w-12 border-2 border-javaquest-blue">

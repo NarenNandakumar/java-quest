@@ -41,12 +41,12 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
             {/* Founder 1 */}
             <Card className="border-none shadow-lg overflow-hidden">
-              <div className="aspect-square bg-javaquest-teal relative">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-white text-2xl font-bold">
-                    [Naren's Photo]
-                  </div>
-                </div>
+              <div className="aspect-square relative overflow-hidden">
+                <img 
+                  src="/lovable-uploads/34216a92-321c-41a1-961e-c1a55736da99.png" 
+                  alt="Naren Nandakumar" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-2xl font-bold text-javaquest-blue mb-2">Naren Nandakumar</h3>

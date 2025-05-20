@@ -23,6 +23,8 @@ const Testimonials = () => {
     }
   ];
 
+  const testimonialFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSc17NUibCk8PivRmtTxsnEhmUIq27PLtaCZqYRu-71Qbc9yJw/viewform?usp=sharing&ouid=111291158362256036501";
+
   return (
     <Layout>
       {/* Hero section */}
@@ -78,7 +80,9 @@ const Testimonials = () => {
             Are you a JavaQuest graduate? We'd love to hear about your experience and how our courses have helped you in your career.
           </p>
           <a 
-            href="mailto:stories@javaquest.org" 
+            href={testimonialFormUrl}
+            target="_blank" 
+            rel="noopener noreferrer"
             className="inline-block bg-javaquest-blue hover:bg-javaquest-blue/90 text-white font-medium py-3 px-6 rounded-md transition-colors"
           >
             Submit Your Story

@@ -96,16 +96,7 @@ const About = () => {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold text-javaquest-blue mb-6 text-center">Our Story</h2>
             <p className="text-gray-600 text-lg mb-4">
-              JavaQuest began in 2018 when Naren and Manu, colleagues at a major tech company, realized they shared twin passions: teaching programming and making a positive difference in the world.
-            </p>
-            <p className="text-gray-600 text-lg mb-4">
-              What started as weekend workshops for local students grew into a comprehensive curriculum that has now helped hundreds of learners master Java programming. As our student base expanded, so did our charitable impact.
-            </p>
-            <p className="text-gray-600 text-lg mb-4">
-              Today, JavaQuest partners with non-profit organizations around the world, funding initiatives in education, healthcare, environmental conservation, and more. We carefully select our partner organizations to ensure that every dollar donated creates maximum impact.
-            </p>
-            <p className="text-gray-600 text-lg">
-              Our journey is just beginning, and we invite you to be part of our story as we continue to grow our reach and impact.
+              Founded in 2023, JavaQuest began when we saw a major problem in the world: Many people lack the resources and necessities we often take for granted. We wanted to find a way to raise money for these individuals, which is why we decided to teach Java and donate the money we made to non-profits whose sole purpose is bettering the lives of those in need. What started as a small community project has now evolved into a full organization, teaching many students and helping lives in America and beyond.
             </p>
           </div>
         </div>

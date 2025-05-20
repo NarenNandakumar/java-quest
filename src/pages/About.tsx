@@ -1,0 +1,144 @@
+
+import Layout from '@/components/layout/Layout';
+import { Card, CardContent } from '@/components/ui/card';
+
+const About = () => {
+  return (
+    <Layout>
+      {/* Hero section */}
+      <section className="bg-javaquest-blue py-20">
+        <div className="container mx-auto px-4 text-center">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">About JavaQuest</h1>
+          <p className="text-xl text-white/80 max-w-2xl mx-auto">
+            Teaching Java programming while making a positive impact on the world.
+          </p>
+        </div>
+      </section>
+      
+      {/* Mission section */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold text-javaquest-blue mb-6 text-center">Our Mission</h2>
+            <p className="text-gray-600 text-lg mb-4">
+              At JavaQuest, we believe that education has the power to transform lives—not just the lives of our students who learn valuable programming skills, but also the lives of people around the world who benefit from our charitable initiatives.
+            </p>
+            <p className="text-gray-600 text-lg mb-4">
+              Our mission is twofold: to provide high-quality Java programming education that prepares students for successful careers in technology, and to use the proceeds from our courses to support non-profit organizations working to solve pressing global challenges.
+            </p>
+            <p className="text-gray-600 text-lg">
+              When you enroll in a JavaQuest course, you're not just investing in your future—you're also contributing to a better world for everyone.
+            </p>
+          </div>
+        </div>
+      </section>
+      
+      {/* Founders section */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-javaquest-blue mb-12 text-center">Our Founders</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+            {/* Founder 1 */}
+            <Card className="border-none shadow-lg overflow-hidden">
+              <div className="aspect-square bg-javaquest-teal relative">
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="text-white text-2xl font-bold">
+                    [Naren's Photo]
+                  </div>
+                </div>
+              </div>
+              <CardContent className="p-6">
+                <h3 className="text-2xl font-bold text-javaquest-blue mb-2">Naren Nandakumar</h3>
+                <p className="text-gray-500 mb-4">Co-Founder & Technical Director</p>
+                <p className="text-gray-600">
+                  With 15 years of experience in Java development and a passion for teaching, Naren leads our curriculum development and ensures our students receive top-notch technical education.
+                </p>
+              </CardContent>
+            </Card>
+            
+            {/* Founder 2 */}
+            <Card className="border-none shadow-lg overflow-hidden">
+              <div className="aspect-square bg-javaquest-teal relative">
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="text-white text-2xl font-bold">
+                    [Manu's Photo]
+                  </div>
+                </div>
+              </div>
+              <CardContent className="p-6">
+                <h3 className="text-2xl font-bold text-javaquest-blue mb-2">Manu Pradeep</h3>
+                <p className="text-gray-500 mb-4">Co-Founder & Impact Director</p>
+                <p className="text-gray-600">
+                  Manu combines his background in non-profit management with technical expertise to oversee our charitable initiatives and ensure that JavaQuest creates meaningful impact globally.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+      
+      {/* Story section */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold text-javaquest-blue mb-6 text-center">Our Story</h2>
+            <p className="text-gray-600 text-lg mb-4">
+              JavaQuest began in 2018 when Naren and Manu, colleagues at a major tech company, realized they shared twin passions: teaching programming and making a positive difference in the world.
+            </p>
+            <p className="text-gray-600 text-lg mb-4">
+              What started as weekend workshops for local students grew into a comprehensive curriculum that has now helped hundreds of learners master Java programming. As our student base expanded, so did our charitable impact.
+            </p>
+            <p className="text-gray-600 text-lg mb-4">
+              Today, JavaQuest partners with non-profit organizations around the world, funding initiatives in education, healthcare, environmental conservation, and more. We carefully select our partner organizations to ensure that every dollar donated creates maximum impact.
+            </p>
+            <p className="text-gray-600 text-lg">
+              Our journey is just beginning, and we invite you to be part of our story as we continue to grow our reach and impact.
+            </p>
+          </div>
+        </div>
+      </section>
+      
+      {/* Values section */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-javaquest-blue mb-12 text-center">Our Values</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            <div className="text-center">
+              <div className="h-20 w-20 mx-auto mb-4 bg-javaquest-teal rounded-full flex items-center justify-center">
+                <span className="text-3xl text-white">🎓</span>
+              </div>
+              <h3 className="text-xl font-bold text-javaquest-blue mb-2">Excellence in Education</h3>
+              <p className="text-gray-600">
+                We are committed to providing the highest quality programming education through well-designed curriculum and dedicated instruction.
+              </p>
+            </div>
+            
+            <div className="text-center">
+              <div className="h-20 w-20 mx-auto mb-4 bg-javaquest-orange rounded-full flex items-center justify-center">
+                <span className="text-3xl text-white">🤝</span>
+              </div>
+              <h3 className="text-xl font-bold text-javaquest-blue mb-2">Social Responsibility</h3>
+              <p className="text-gray-600">
+                We believe in using our skills and resources to create positive change in communities around the world.
+              </p>
+            </div>
+            
+            <div className="text-center">
+              <div className="h-20 w-20 mx-auto mb-4 bg-javaquest-blue rounded-full flex items-center justify-center">
+                <span className="text-3xl text-white">🌱</span>
+              </div>
+              <h3 className="text-xl font-bold text-javaquest-blue mb-2">Continuous Growth</h3>
+              <p className="text-gray-600">
+                We foster a culture of lifelong learning and constant improvement among our students, team, and community.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </Layout>
+  );
+};
+
+export default About;

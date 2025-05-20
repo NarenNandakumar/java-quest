@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,15 +53,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
+				javaquest: {
+					blue: '#0A2463',
+					teal: '#3E92CC',
+					orange: '#FF8C42',
+					light: '#F7F9FB',
+					dark: '#1A1F2C'
 				}
 			},
 			borderRadius: {
@@ -84,11 +82,20 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'code-flow': {
+					'0%': { 
+						transform: 'translateX(0%)' 
+					},
+					'100%': { 
+						transform: 'translateX(-50%)' 
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'code-flow': 'code-flow 20s linear infinite'
 			}
 		}
 	},

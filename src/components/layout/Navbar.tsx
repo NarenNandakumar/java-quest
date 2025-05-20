@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X, Book, LogIn } from 'lucide-react';
+import { Menu, X, Book, LogIn, Calendar } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Navbar = () => {
@@ -39,6 +39,10 @@ const Navbar = () => {
           </Link>
           <Link to="/testimonials" className="text-white hover:text-javaquest-orange transition-colors">
             Testimonials
+          </Link>
+          <Link to="/class-details" className="text-white hover:text-javaquest-orange flex items-center space-x-1 transition-colors">
+            <Calendar size={16} />
+            <span>Class Details</span>
           </Link>
           <Link to="/resources" className="text-white hover:text-javaquest-orange flex items-center space-x-1 transition-colors">
             <Book size={16} />
@@ -80,6 +84,14 @@ const Navbar = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               Testimonials
+            </Link>
+            <Link 
+              to="/class-details" 
+              className="text-white hover:text-javaquest-orange flex items-center space-x-2 px-4 py-2"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              <Calendar size={16} />
+              <span>Class Details</span>
             </Link>
             <Link 
               to="/resources" 

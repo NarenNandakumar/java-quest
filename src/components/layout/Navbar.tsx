@@ -51,7 +51,7 @@ const Navbar = () => {
             </Link>
           </Button>
           <Button asChild className="bg-javaquest-orange hover:bg-javaquest-orange/90">
-            <Link to="/#contact">Enroll Now</Link>
+            <Link to="/programs">Enroll Now</Link>
           </Button>
         </div>
       </div>
@@ -102,7 +102,7 @@ const Navbar = () => {
               className="bg-javaquest-orange hover:bg-javaquest-orange/90 w-full"
               onClick={() => setIsMenuOpen(false)}
             >
-              <Link to="/#contact">Enroll Now</Link>
+              <Link to="/programs">Enroll Now</Link>
             </Button>
           </div>
         </div>

@@ -16,9 +16,9 @@ const Hero = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild size="lg" className="bg-javaquest-orange hover:bg-javaquest-orange/90">
-                <Link to="/#programs">Start Learning Today</Link>
+                <Link to="/programs">Start Learning Today</Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-javaquest-blue">
+              <Button asChild size="lg" variant="outline" className="border-white text-black hover:bg-white hover:text-javaquest-blue">
                 <Link to="/about">Learn More</Link>
               </Button>
             </div>

@@ -24,13 +24,6 @@ const Programs = () => {
   return (
     <section className="py-20 bg-white" id="programs">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-javaquest-blue mb-4">Our Programs</h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
-            Choose from our expertly designed Java programming courses and help make a difference.
-          </p>
-        </div>
-        
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {programs.map((program, index) => (
             <Card key={index} className="border border-gray-200 hover:border-javaquest-teal transition-colors">

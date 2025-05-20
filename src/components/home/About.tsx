@@ -8,12 +8,12 @@ const AboutPreview = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
-            <div className="aspect-video bg-javaquest-teal rounded-lg overflow-hidden relative">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-white text-2xl font-bold">
-                  [Founders Image]
-                </div>
-              </div>
+            <div className="aspect-video rounded-lg overflow-hidden shadow-lg">
+              <img 
+                src="https://images.unsplash.com/photo-1493397212122-2b85dda8106b?auto=format&fit=crop&w=800"
+                alt="Code education" 
+                className="w-full h-full object-cover transition-transform hover:scale-105 duration-500"
+              />
             </div>
           </div>
           <div className="md:w-1/2 md:pl-12">

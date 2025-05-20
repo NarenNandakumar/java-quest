@@ -6,6 +6,7 @@ import AboutPreview from '@/components/home/About';
 import CodeAnimation from '@/components/home/CodeAnimation';
 import Impact from '@/components/home/Impact';
 import Contact from '@/components/home/Contact';
+import Programs from '@/components/home/Programs';
 
 const Index = () => {
   return (
@@ -13,6 +14,7 @@ const Index = () => {
       <Hero />
       <Features />
       <AboutPreview />
+      <Programs />
       <CodeAnimation />
       <Impact />
       <Contact />

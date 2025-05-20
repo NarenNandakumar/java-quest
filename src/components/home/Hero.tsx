@@ -22,6 +22,9 @@ const Hero = () => {
                 <Link to="/about">Learn More</Link>
               </Button>
             </div>
+            <p className="mt-4 text-white/80 text-sm">
+              New to coding? <Link to="/class-details" className="text-javaquest-orange hover:underline">Try our free trial class!</Link>
+            </p>
           </div>
           <div className="md:w-1/2">
             <div className="code-snippet overflow-hidden rounded-md">

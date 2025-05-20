@@ -6,39 +6,32 @@ import { Link } from 'react-router-dom';
 const Programs = () => {
   const programs = [
     {
-      title: 'Java Fundamentals',
-      description: 'A comprehensive introduction to Java programming for absolute beginners.',
-      duration: '8 Weeks',
-      level: 'Beginner',
-      price: '$299'
+      title: 'Normal Class',
+      description: 'Learn Java programming in a group setting with our experienced instructors.',
+      duration: '2 Months',
+      format: 'Group Classes',
+      price: '$15/month'
     },
     {
-      title: 'Advanced Java',
-      description: 'Deepen your Java knowledge with advanced concepts and techniques.',
-      duration: '10 Weeks',
-      level: 'Intermediate',
-      price: '$399'
-    },
-    {
-      title: 'Java for Enterprise',
-      description: 'Master enterprise-level Java development with Spring Boot and more.',
-      duration: '12 Weeks',
-      level: 'Advanced',
-      price: '$499'
+      title: 'One-on-One Sessions',
+      description: 'Personalized Java programming instruction tailored to your specific needs and pace.',
+      duration: '2 Months',
+      format: 'Individual Sessions',
+      price: '$15/month'
     }
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-white" id="programs">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-javaquest-blue mb-4">Our Programs</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Choose from our range of expertly designed courses to begin your Java programming journey.
+            Choose from our expertly designed Java programming courses and help make a difference.
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {programs.map((program, index) => (
             <Card key={index} className="border border-gray-200 hover:border-javaquest-teal transition-colors">
               <CardHeader>
@@ -52,8 +45,8 @@ const Programs = () => {
                     <span className="font-medium">{program.duration}</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-gray-600">Level:</span>
-                    <span className="font-medium">{program.level}</span>
+                    <span className="text-gray-600">Format:</span>
+                    <span className="font-medium">{program.format}</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-600">Price:</span>

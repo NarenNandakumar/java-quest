@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Book, LogIn } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Navbar = () => {
@@ -30,7 +30,7 @@ const Navbar = () => {
         </div>
         
         {/* Desktop menu */}
-        <div className="hidden md:flex items-center space-x-8">
+        <div className="hidden md:flex items-center space-x-6">
           <Link to="/" className="text-white hover:text-javaquest-orange transition-colors">
             Home
           </Link>
@@ -40,6 +40,16 @@ const Navbar = () => {
           <Link to="/testimonials" className="text-white hover:text-javaquest-orange transition-colors">
             Testimonials
           </Link>
+          <Link to="/resources" className="text-white hover:text-javaquest-orange flex items-center space-x-1 transition-colors">
+            <Book size={16} />
+            <span>Resources</span>
+          </Link>
+          <Button asChild variant="ghost" className="bg-transparent text-white hover:bg-javaquest-blue hover:text-javaquest-orange">
+            <Link to="/login" className="flex items-center space-x-1">
+              <LogIn size={16} />
+              <span>Login</span>
+            </Link>
+          </Button>
           <Button asChild className="bg-javaquest-orange hover:bg-javaquest-orange/90">
             <Link to="/#contact">Enroll Now</Link>
           </Button>
@@ -70,6 +80,22 @@ const Navbar = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               Testimonials
+            </Link>
+            <Link 
+              to="/resources" 
+              className="text-white hover:text-javaquest-orange flex items-center space-x-2 px-4 py-2"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              <Book size={16} />
+              <span>Resources</span>
+            </Link>
+            <Link 
+              to="/login" 
+              className="text-white hover:text-javaquest-orange flex items-center space-x-2 px-4 py-2"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              <LogIn size={16} />
+              <span>Login</span>
             </Link>
             <Button 
               asChild 

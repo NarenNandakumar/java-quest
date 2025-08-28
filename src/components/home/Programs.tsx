@@ -8,14 +8,16 @@ const Programs = () => {
     {
       title: 'Normal Class',
       description: 'Learn Java programming in a group setting with our experienced instructors.',
-      duration: '2 Months',
+      duration: 'October 11th - End of May',
+      schedule: 'Every Saturday, 5:00 PM EST',
       format: 'Group Classes',
       price: '$15/month'
     },
     {
       title: 'One-on-One Sessions',
       description: 'Personalized Java programming instruction tailored to your specific needs and pace.',
-      duration: '2 Months',
+      duration: 'October 11th - End of May',
+      schedule: 'Every Sunday, 5:00 PM EST',
       format: 'Individual Sessions',
       price: '$15/month'
     }
@@ -39,6 +41,10 @@ const Programs = () => {
                   <div className="flex justify-between">
                     <span className="text-gray-600">Duration:</span>
                     <span className="font-medium">{program.duration}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-600">Schedule:</span>
+                    <span className="font-medium">{program.schedule}</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-600">Format:</span>
@@ -77,8 +83,12 @@ const Programs = () => {
             <CardContent>
               <div className="space-y-2">
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Duration:</span>
-                  <span className="font-medium">1 Session</span>
+                  <span className="text-gray-600">Date:</span>
+                  <span className="font-medium">October 4th</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-gray-600">Time:</span>
+                  <span className="font-medium">5:00 PM EST</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Format:</span>

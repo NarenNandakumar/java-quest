@@ -33,6 +33,9 @@ const ClassDetails = () => {
                 <h3 className="text-2xl font-bold text-javaquest-blue mb-2 text-center">Regular Sessions</h3>
                 <div className="space-y-4 mt-4 flex-grow">
                   <div className="border-b pb-2">
+                    <p className="text-gray-600"><strong>Duration:</strong> October 11th - End of May</p>
+                  </div>
+                  <div className="border-b pb-2">
                     <p className="text-gray-600"><strong>Day:</strong> Every Saturday</p>
                   </div>
                   <div className="border-b pb-2">
@@ -71,6 +74,9 @@ const ClassDetails = () => {
                 </div>
                 <h3 className="text-2xl font-bold text-javaquest-teal mb-2 text-center">One-on-One Sessions</h3>
                 <div className="space-y-4 mt-4 flex-grow">
+                  <div className="border-b pb-2">
+                    <p className="text-gray-600"><strong>Duration:</strong> October 11th - End of May</p>
+                  </div>
                   <div className="border-b pb-2">
                     <p className="text-gray-600"><strong>Day:</strong> Every Sunday</p>
                   </div>
@@ -111,10 +117,10 @@ const ClassDetails = () => {
                 <h3 className="text-2xl font-bold text-javaquest-orange mb-2 text-center">Free Trial Class</h3>
                 <div className="space-y-4 mt-4 flex-grow">
                   <div className="border-b pb-2">
-                    <p className="text-gray-600"><strong>Date:</strong> To Be Determined</p>
+                    <p className="text-gray-600"><strong>Date:</strong> October 4th</p>
                   </div>
                   <div className="border-b pb-2">
-                    <p className="text-gray-600"><strong>Time:</strong> To Be Determined</p>
+                    <p className="text-gray-600"><strong>Time:</strong> 5:00 PM EST</p>
                   </div>
                   <div className="border-b pb-2">
                     <p className="text-gray-600"><strong>Format:</strong> Group session via Zoom</p>

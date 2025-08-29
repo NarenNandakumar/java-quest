@@ -11,7 +11,7 @@ const Programs = () => {
       duration: 'October 11th - End of May',
       schedule: 'Every Saturday, 5:00 PM EST',
       format: 'Group Classes',
-      price: '$15/month'
+      price: '$20/month'
     },
     {
       title: 'One-on-One Sessions',
@@ -19,7 +19,7 @@ const Programs = () => {
       duration: 'October 11th - End of May',
       schedule: 'Every Sunday, 5:00 PM EST',
       format: 'Individual Sessions',
-      price: '$15/month'
+      price: '$35/month'
     }
   ];
 

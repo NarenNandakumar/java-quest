@@ -47,6 +47,9 @@ const ClassDetails = () => {
                   <div className="border-b pb-2">
                     <p className="text-gray-600"><strong>Note:</strong> Holidays excluded</p>
                   </div>
+                  <div className="border-b pb-2">
+                    <p className="text-gray-600"><strong>Price:</strong> <span className="font-bold text-javaquest-blue">$20/month</span></p>
+                  </div>
                 </div>
                 <div className="mt-6">
                   <Button
@@ -88,6 +91,9 @@ const ClassDetails = () => {
                   </div>
                   <div className="border-b pb-2">
                     <p className="text-gray-600"><strong>Note:</strong> Holidays excluded</p>
+                  </div>
+                  <div className="border-b pb-2">
+                    <p className="text-gray-600"><strong>Price:</strong> <span className="font-bold text-javaquest-teal">$35/month</span></p>
                   </div>
                 </div>
                 <div className="mt-6">

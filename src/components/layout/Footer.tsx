@@ -11,10 +11,10 @@ const Footer = () => {
               <div className="h-8 w-8 rounded-md bg-javaquest-orange flex items-center justify-center">
                 <span className="text-white font-bold text-sm">J</span>
               </div>
-              <span className="text-white font-bold text-xl">JavaQuest</span>
+              <span className="text-white font-bold text-xl" aria-label="JavaQuest also known as Java Quest">JavaQuest</span>
             </div>
             <p className="text-gray-300 mb-4">
-              Teaching Java programming while making a difference in the world.
+              Teaching Java programming while making a difference in the world. JavaQuest (Java Quest) offers expert coding instruction and charitable impact.
             </p>
             <p className="text-gray-400 text-sm">
               © {new Date().getFullYear()} JavaQuest. All rights reserved.

@@ -1,5 +1,6 @@
 
 import Layout from '@/components/layout/Layout';
+import SEO from '@/components/SEO';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ExternalLink, Calendar } from 'lucide-react';
@@ -8,14 +9,43 @@ const ClassDetails = () => {
   const enrollmentFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdDVqZBOuSZVfkB5-4AqqAWDni1vjAIHMETCuAXKfnPaD0XFA/viewform?usp=sharing&ouid=111291158362256036501";
   const freeTrialFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSelVTTihDsBB3BQkvXYQwAsNxDGEwOBv1kEw7wjzNwQoHK0vg/viewform?usp=sharing&ouid=111291158362256036501";
   
+  const eventSchema = {
+    "@context": "https://schema.org",
+    "@type": "EducationEvent",
+    "name": "JavaQuest Free Trial Class",
+    "description": "Free Java programming trial class by JavaQuest (Java Quest). Try our teaching style and curriculum with no commitment required.",
+    "startDate": "2024-10-04T17:00:00-05:00",
+    "organizer": {
+      "@type": "Organization",
+      "name": "JavaQuest",
+      "alternateName": "Java Quest"
+    },
+    "location": {
+      "@type": "VirtualLocation",
+      "url": "https://zoom.us"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode"
+  };
+
   return (
     <Layout>
+      <SEO 
+        title="Java Class Details & Schedule - JavaQuest | Java Quest Programming"
+        description="View JavaQuest (Java Quest) class details. Regular sessions $20/month Saturdays, one-on-one $35/month Sundays, free trial October 4th. Expert Java instruction."
+        structuredData={eventSchema}
+      />
       {/* Hero section */}
       <section className="bg-javaquest-blue py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Class Details</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Java Class Details & Schedule</h1>
           <p className="text-xl text-white/80 max-w-2xl mx-auto">
-            Information about our class schedules and formats
+            Information about our JavaQuest (Java Quest) class schedules and formats
           </p>
         </div>
       </section>

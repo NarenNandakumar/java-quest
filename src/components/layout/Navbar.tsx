@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="bg-javaquest-blue py-4 sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="flex items-center space-x-2">
+        <Link to="/" className="flex items-center space-x-2" aria-label="JavaQuest - Java Quest Programming Home">
           <div className="h-10 w-10 rounded-md bg-javaquest-orange flex items-center justify-center">
             <span className="text-white font-bold text-xl">J</span>
           </div>

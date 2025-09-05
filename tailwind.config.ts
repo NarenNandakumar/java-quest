@@ -54,10 +54,10 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				javaquest: {
-					blue: '#0A2463',
-					teal: '#3E92CC',
-					orange: '#FF8C42',
-					light: '#F7F9FB',
+					red: '#ac3d3d',
+					'red-dark': '#8b2f2f',
+					'red-light': '#c54545',
+					cream: '#e8dedc',
 					dark: '#1A1F2C'
 				}
 			},

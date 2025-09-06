@@ -2,6 +2,7 @@
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
+import aboutImage from '@/assets/about-hero-image.jpg';
 
 const AboutPreview = () => {
   return (
@@ -11,8 +12,8 @@ const AboutPreview = () => {
           <div className="md:w-1/2 mb-10 md:mb-0">
             <div className="aspect-video rounded-lg overflow-hidden shadow-lg">
               <img 
-                src="https://images.unsplash.com/photo-1493397212122-2b85dda8106b?auto=format&fit=crop&w=800"
-                alt="Code education" 
+                src={aboutImage}
+                alt="JavaQuest coding education workspace" 
                 className="w-full h-full object-cover transition-transform hover:scale-105 duration-500"
               />
             </div>

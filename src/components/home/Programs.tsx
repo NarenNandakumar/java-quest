@@ -31,10 +31,10 @@ const Programs = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {programs.map((program, index) => (
-            <Card key={index} className="border border-gray-200 hover:border-javaquest-teal transition-colors">
+            <Card key={index} className="border border-primary/20 hover:border-primary transition-colors shadow-lg">
               <CardHeader>
-                <CardTitle className="text-xl text-javaquest-blue">{program.title}</CardTitle>
-                <CardDescription className="text-gray-600">{program.description}</CardDescription>
+                <CardTitle className="text-xl text-primary">{program.title}</CardTitle>
+                <CardDescription className="text-muted-foreground">{program.description}</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="space-y-2">
@@ -52,14 +52,14 @@ const Programs = () => {
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-600">Price:</span>
-                    <span className="font-bold text-javaquest-blue">{program.price}</span>
+                    <span className="font-bold text-primary">{program.price}</span>
                   </div>
                 </div>
               </CardContent>
               <CardFooter>
                 <Button
                   asChild
-                  className="w-full bg-javaquest-teal hover:bg-javaquest-teal/90"
+                  className="w-full bg-primary hover:bg-primary/90"
                 >
                   <a 
                     href={enrollmentFormUrl}
@@ -75,10 +75,10 @@ const Programs = () => {
           ))}
           
           {/* Free Trial Class Card */}
-          <Card className="border border-gray-200 hover:border-javaquest-orange transition-colors">
+          <Card className="border-2 border-accent hover:border-accent/80 transition-colors shadow-lg bg-accent/5">
             <CardHeader>
-              <CardTitle className="text-xl text-javaquest-orange">Free Trial Class</CardTitle>
-              <CardDescription className="text-gray-600">Experience our teaching style and curriculum before committing to a full program.</CardDescription>
+              <CardTitle className="text-xl text-accent">Free Trial Class</CardTitle>
+              <CardDescription className="text-muted-foreground">Experience our teaching style and curriculum before committing to a full program.</CardDescription>
             </CardHeader>
             <CardContent>
               <div className="space-y-2">
@@ -96,14 +96,14 @@ const Programs = () => {
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Price:</span>
-                  <span className="font-bold text-javaquest-orange">Free</span>
+                  <span className="font-bold text-accent text-lg">Free</span>
                 </div>
               </div>
             </CardContent>
             <CardFooter>
               <Button
                 asChild
-                className="w-full bg-javaquest-orange hover:bg-javaquest-orange/90"
+                className="w-full bg-accent hover:bg-accent/90 text-white font-semibold"
               >
                 <a 
                   href={freeTrialFormUrl}

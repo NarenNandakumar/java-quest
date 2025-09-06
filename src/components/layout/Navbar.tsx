@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="flex items-center" aria-label="JavaQuest - Java Quest Programming Home">
           <img 
-            src="/lovable-uploads/780dda49-2094-4fe2-b1bd-22de4c78ede2.png" 
+            src="/lovable-uploads/a17d7086-1d80-41bc-88f9-55e503152989.png" 
             alt="JavaQuest Logo" 
             className="h-10 w-auto"
           />

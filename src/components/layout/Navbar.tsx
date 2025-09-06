@@ -14,7 +14,7 @@ const Navbar = () => {
           <img 
             src="/lovable-uploads/be1b51f4-a07f-4795-8a19-a716b090a4f5.png" 
             alt="JavaQuest Logo" 
-            className="h-10 w-auto"
+            className="h-12 w-auto"
           />
         </Link>
         

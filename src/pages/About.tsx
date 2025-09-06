@@ -38,7 +38,7 @@ const About = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-primary mb-12 text-center">Our Team</h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto">
             {/* Founder 1 */}
             <Card className="border-none shadow-lg overflow-hidden">
               <div className="aspect-square relative overflow-hidden">
@@ -101,6 +101,24 @@ const About = () => {
                 <p className="text-muted-foreground mb-4">Finance Lead</p>
                 <p className="text-foreground/80">
                   Hello, I'm Soham Sakpal, a senior at Lambert High School with a passion for technology and leadership. I've been involved in robotics for several years, serving as project manager and training lead, where I've developed skills in collaboration, problem-solving, and innovation. I've worked on large scale app development and deployment with Java and online systems for wireless data transfer. I look forward to helping others grow in their STEM journey.
+                </p>
+              </CardContent>
+            </Card>
+            
+            {/* Media Lead */}
+            <Card className="border-none shadow-lg overflow-hidden">
+              <div className="aspect-[3/4] relative overflow-hidden">
+                <img 
+                  src="/lovable-uploads/9850647d-cda2-485e-af9a-4f5c498215d9.png" 
+                  alt="Avik Basu" 
+                  className="w-full h-full object-cover object-top"
+                />
+              </div>
+              <CardContent className="p-6">
+                <h3 className="text-2xl font-bold text-primary mb-2">Avik Basu</h3>
+                <p className="text-muted-foreground mb-4">Media Lead</p>
+                <p className="text-foreground/80">
+                  Hey, I'm Avik Basu, a senior at Lambert High School. I love teaching and business and I am always looking for ways to combine the two. I have been doing coding ever since I entered middle school, and I hope to help as many people as possible discover the joys of coding. On top of receiving the IT Specialist Certification from Certiport, I have also excelled in AP CSP and AP CSA. I also tutor students in many other subjects such as algebra, social studies, and biology. I look forward to making an impact and helping you learn!
                 </p>
               </CardContent>
             </Card>

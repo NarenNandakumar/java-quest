@@ -14,15 +14,13 @@ const Hero = () => {
             <p className="text-lg md:text-xl mb-8 max-w-lg">
               Master Java programming with expert instruction while supporting charitable causes around the world.
             </p>
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 mb-4">
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button asChild size="lg" className="bg-accent hover:bg-accent/90">
-                  <Link to="/programs">Start Learning Today</Link>
-                </Button>
-                <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
-                  <Link to="/about">Learn More</Link>
-                </Button>
-              </div>
+            <div className="flex flex-col sm:flex-row gap-4 mb-4">
+              <Button asChild size="lg" className="bg-accent hover:bg-accent/90">
+                <Link to="/programs">Start Learning Today</Link>
+              </Button>
+              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
+                <Link to="/about">Learn More</Link>
+              </Button>
             </div>
             <div className="mt-4 bg-black/15 backdrop-blur-sm rounded-md px-4 py-2 inline-block">
               <p className="text-white/90 text-sm">

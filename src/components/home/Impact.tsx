@@ -62,7 +62,7 @@ const Impact = () => {
             We're committed to directing 100% of our revenue to carefully vetted nonprofit organizations that create 
             meaningful change in the world.
           </p>
-          <Button asChild className="bg-javaquest-blue hover:bg-javaquest-blue/90">
+          <Button asChild className="bg-primary hover:bg-primary/90 text-white shadow-lg">
             <Link to="/about">Learn About Our Impact</Link>
           </Button>
         </div>

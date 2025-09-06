@@ -55,17 +55,16 @@ const Footer = () => {
               <p>Phone: 214-536-5483</p>
               <p>Phone: 469-487-4765</p>
             </address>
-            <div className="mt-4 flex space-x-4">
-              {/* Social media icons would go here */}
-              <div className="h-8 w-8 rounded-full bg-javaquest-teal flex items-center justify-center">
-                <span className="text-white text-sm">FB</span>
-              </div>
-              <div className="h-8 w-8 rounded-full bg-javaquest-teal flex items-center justify-center">
-                <span className="text-white text-sm">TW</span>
-              </div>
-              <div className="h-8 w-8 rounded-full bg-javaquest-teal flex items-center justify-center">
-                <span className="text-white text-sm">IG</span>
-              </div>
+            <div className="mt-4">
+              <a 
+                href="https://www.instagram.com/javaquestofficial/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center h-10 w-10 rounded-full bg-primary hover:bg-primary/90 transition-colors"
+                aria-label="Follow JavaQuest on Instagram"
+              >
+                <span className="text-white text-sm font-semibold">IG</span>
+              </a>
             </div>
           </div>
         </div>

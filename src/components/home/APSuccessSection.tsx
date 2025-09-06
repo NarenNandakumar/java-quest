@@ -11,7 +11,7 @@ const APSuccessSection = () => {
             <h2 className="text-3xl font-bold text-primary">Beyond AP Computer Science A Success</h2>
             <div className="bg-accent/20 rounded-lg p-4 mt-4 border-l-4 border-accent">
               <p className="text-foreground font-medium">
-                🚀 <strong>Complete AP CSA Coverage + Industry Skills:</strong> We thoroughly cover all AP Computer Science A concepts to ensure exam success, while also teaching industry-relevant skills including Java graphics, advanced programming concepts, and real-world project development that prepare you for success in the tech industry.
+                🚀 <strong>Complete AP CSA Coverage + Industry Skills:</strong> We thoroughly cover all AP Computer Science A concepts to ensure exam success, while also teaching industry-relevant skills including Java graphics, advanced programming concepts, and real-world project development that prepare students for success in the tech industry.
               </p>
             </div>
             <p className="text-muted-foreground max-w-3xl mx-auto mt-3">

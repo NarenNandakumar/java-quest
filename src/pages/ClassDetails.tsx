@@ -135,7 +135,7 @@ const ClassDetails = () => {
                 <div className="mt-6">
                   <Button
                     asChild
-                    className="w-full bg-secondary hover:bg-secondary/90 shadow-lg"
+                    className="w-full bg-primary hover:bg-primary/90 shadow-lg"
                   >
                     <a 
                       href={enrollmentFormUrl}
@@ -176,7 +176,7 @@ const ClassDetails = () => {
                 <div className="mt-6">
                   <Button
                     asChild
-                    className="w-full bg-accent hover:bg-accent/90 shadow-lg"
+                    className="w-full bg-primary hover:bg-primary/90 shadow-lg"
                   >
                     <a 
                       href={freeTrialFormUrl}

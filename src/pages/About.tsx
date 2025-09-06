@@ -89,11 +89,11 @@ const About = () => {
             
             {/* Finance Lead */}
             <Card className="border-none shadow-lg overflow-hidden">
-              <div className="aspect-square relative overflow-hidden">
+              <div className="aspect-[3/4] relative overflow-hidden">
                 <img 
                   src="/lovable-uploads/ecde2c6a-04c3-4199-b3ef-01e5f1fc5030.png" 
                   alt="Soham Sakpal" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-top"
                 />
               </div>
               <CardContent className="p-6">

@@ -33,12 +33,12 @@ const About = () => {
         </div>
       </section>
       
-      {/* Founders section */}
+      {/* Team section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-primary mb-12 text-center">Our Founders</h2>
+          <h2 className="text-3xl font-bold text-primary mb-12 text-center">Our Team</h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-6xl mx-auto">
             {/* Founder 1 */}
             <Card className="border-none shadow-lg overflow-hidden">
               <div className="aspect-square relative overflow-hidden">
@@ -83,6 +83,24 @@ const About = () => {
                   Science A, as I took the class and excelled on the test. I've made an online guitar 
                   simulator, a sound visualizer, a sandbox game, 2D platformer game, and a visualizer of 
                   the game of life. I hope that everyone I teach will excel in the world of computer science.
+                </p>
+              </CardContent>
+            </Card>
+            
+            {/* Finance Lead */}
+            <Card className="border-none shadow-lg overflow-hidden">
+              <div className="aspect-square relative overflow-hidden">
+                <img 
+                  src="/lovable-uploads/ecde2c6a-04c3-4199-b3ef-01e5f1fc5030.png" 
+                  alt="Soham Sakpal" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <CardContent className="p-6">
+                <h3 className="text-2xl font-bold text-primary mb-2">Soham Sakpal</h3>
+                <p className="text-muted-foreground mb-4">Finance Lead</p>
+                <p className="text-foreground/80">
+                  Hello, I'm Soham Sakpal, a senior at Lambert High School with a passion for technology and leadership. I've been involved in robotics for several years, serving as project manager and training lead, where I've developed skills in collaboration, problem-solving, and innovation. I've worked on large scale app development and deployment with Java and online systems for wireless data transfer. I look forward to helping others grow in their STEM journey.
                 </p>
               </CardContent>
             </Card>

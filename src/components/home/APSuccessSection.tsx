@@ -7,11 +7,13 @@ const APSuccessSection = () => {
     <section className="py-12 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-javaquest-blue">AP Computer Science A Success</h2>
-          <p className="text-gray-600 max-w-3xl mx-auto mt-3">
-            Our curriculum is specially designed to help students excel in the AP Computer Science A exam
-            while developing practical skills beyond the test requirements.
-          </p>
+          <div className="bg-secondary/10 rounded-lg shadow-sm p-8 max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-primary">AP Computer Science A Success</h2>
+            <p className="text-muted-foreground max-w-3xl mx-auto mt-3">
+              Our curriculum is specially designed to help students excel in the AP Computer Science A exam
+              while developing practical skills beyond the test requirements.
+            </p>
+          </div>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">

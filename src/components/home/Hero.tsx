@@ -8,12 +8,14 @@ const Hero = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-              Learn Java. <span className="text-javaquest-orange">Change Lives.</span>
-            </h1>
-            <p className="text-lg md:text-xl mb-8 max-w-lg">
-              Master Java programming with expert instruction while supporting charitable causes around the world.
-            </p>
+            <div className="bg-black/20 backdrop-blur-sm rounded-lg p-6 mb-8">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+                Learn Java. <span className="text-accent">Change Lives.</span>
+              </h1>
+              <p className="text-lg md:text-xl max-w-lg">
+                Master Java programming with expert instruction while supporting charitable causes around the world.
+              </p>
+            </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild size="lg" className="bg-javaquest-orange hover:bg-javaquest-orange/90">
                 <Link to="/programs">Start Learning Today</Link>
@@ -22,9 +24,11 @@ const Hero = () => {
                 <Link to="/about">Learn More</Link>
               </Button>
             </div>
-            <p className="mt-4 text-white/80 text-sm">
-              New to coding? <Link to="/class-details" className="text-javaquest-orange hover:underline">Try our free trial class!</Link>
-            </p>
+            <div className="mt-4 bg-black/15 backdrop-blur-sm rounded-md px-4 py-2 inline-block">
+              <p className="text-white/90 text-sm">
+                New to coding? <Link to="/class-details" className="text-accent hover:underline font-medium">Try our free trial class!</Link>
+              </p>
+            </div>
           </div>
           <div className="md:w-1/2">
             <div className="code-snippet overflow-hidden rounded-md">

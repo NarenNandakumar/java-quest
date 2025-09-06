@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-              Learn Java. <span className="text-yellow-300">Change Lives.</span>
+              Learn Java. <span className="text-white">Change Lives.</span>
             </h1>
             <p className="text-lg md:text-xl mb-8 max-w-lg">
               Master Java programming with expert instruction while supporting charitable causes around the world.

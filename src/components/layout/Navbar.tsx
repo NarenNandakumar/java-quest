@@ -16,7 +16,7 @@ const Navbar = () => {
             alt="JavaQuest Logo" 
             className="h-10 w-auto"
           />
-          <span className="text-white font-bold text-xl">JavaQuest</span>
+          <span className="text-white font-bold text-lg">JavaQuest</span>
         </Link>
         
         {/* Mobile menu button */}

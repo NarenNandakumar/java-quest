@@ -10,13 +10,12 @@ const Navbar = () => {
   return (
     <nav className="bg-black py-4 fixed top-0 left-0 right-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="flex items-center space-x-3" aria-label="JavaQuest - Java Quest Programming Home">
+        <Link to="/" className="flex items-center" aria-label="JavaQuest - Java Quest Programming Home">
           <img 
-            src="/lovable-uploads/ed00dd97-b749-41bc-a486-176a40eca0ac.png" 
+            src="/lovable-uploads/780dda49-2094-4fe2-b1bd-22de4c78ede2.png" 
             alt="JavaQuest Logo" 
             className="h-10 w-auto"
           />
-          <span className="text-white font-bold text-lg">JavaQuest</span>
         </Link>
         
         {/* Mobile menu button */}

@@ -28,10 +28,10 @@ const Testimonials = () => {
   return (
     <Layout>
       {/* Hero section */}
-      <section className="bg-javaquest-blue py-20">
+      <section className="bg-primary py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Student Testimonials</h1>
-          <p className="text-xl text-white/80 max-w-2xl mx-auto">
+          <h1 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-4">Student Testimonials</h1>
+          <p className="text-xl text-primary-foreground/80 max-w-2xl mx-auto">
             Hear from our students about their experience learning Java with JavaQuest.
           </p>
         </div>
@@ -40,7 +40,7 @@ const Testimonials = () => {
       {/* Testimonials grid */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
+          <p className="text-center text-foreground/80 mb-12 max-w-3xl mx-auto">
             Our students come from diverse backgrounds and career stages, but they all share one thing: they've found success through our Java programming courses while making a positive impact on the world.
           </p>
           
@@ -49,9 +49,9 @@ const Testimonials = () => {
               <Card key={index} className="shadow-lg border-none h-full">
                 <CardContent className="p-8 flex flex-col h-full">
                   <div className="flex-grow">
-                    <div className="text-5xl text-javaquest-teal mb-4">"</div>
-                    <p className="text-gray-600 italic mb-6">{testimonial.quote}</p>
-                    <p className="font-bold text-javaquest-blue text-right">- {testimonial.name}</p>
+                    <div className="text-5xl text-primary mb-4">"</div>
+                    <p className="text-foreground/80 italic mb-6">{testimonial.quote}</p>
+                    <p className="font-bold text-primary text-right">- {testimonial.name}</p>
                   </div>
                 </CardContent>
               </Card>
@@ -59,12 +59,12 @@ const Testimonials = () => {
           </div>
           
           <div className="mt-16 text-center">
-            <p className="text-xl text-javaquest-blue mb-4">
+            <p className="text-xl text-primary mb-4">
               Ready to join our community of successful Java developers?
             </p>
             <a 
               href="/programs" 
-              className="inline-block bg-javaquest-orange hover:bg-javaquest-orange/90 text-white font-medium py-3 px-6 rounded-md transition-colors"
+              className="inline-block bg-secondary hover:bg-secondary/90 text-secondary-foreground font-medium py-3 px-6 rounded-md transition-colors"
             >
               Start Your Journey Today
             </a>
@@ -75,15 +75,15 @@ const Testimonials = () => {
       {/* CTA section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-javaquest-blue mb-4">Share Your Success Story</h2>
-          <p className="text-gray-600 max-w-2xl mx-auto mb-8">
+          <h2 className="text-3xl font-bold text-primary mb-4">Share Your Success Story</h2>
+          <p className="text-foreground/80 max-w-2xl mx-auto mb-8">
             Are you a JavaQuest graduate? We'd love to hear about your experience and how our courses have helped you in your career.
           </p>
           <a 
             href={testimonialFormUrl}
             target="_blank" 
             rel="noopener noreferrer"
-            className="inline-block bg-javaquest-blue hover:bg-javaquest-blue/90 text-white font-medium py-3 px-6 rounded-md transition-colors"
+            className="inline-block bg-primary hover:bg-primary/90 text-primary-foreground font-medium py-3 px-6 rounded-md transition-colors"
           >
             Submit Your Story
           </a>

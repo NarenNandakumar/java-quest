@@ -18,27 +18,27 @@ const AboutPreview = () => {
             </div>
           </div>
           <div className="md:w-1/2 md:pl-12">
-            <h2 className="text-3xl font-bold text-javaquest-blue mb-4">
+            <h2 className="text-3xl font-bold text-primary mb-4">
               About JavaQuest
             </h2>
-            <p className="text-gray-600 mb-6">
+            <p className="text-foreground/80 mb-6">
               Founded by Naren Nandakumar and Manu Pradeep, JavaQuest combines their passion for technology education with a commitment to social responsibility. We believe that learning to code should not only advance your career but also contribute to making the world a better place.
             </p>
-            <p className="text-gray-600 mb-6">
+            <p className="text-foreground/80 mb-6">
               Every course you take with us helps fund important causes like education, healthcare, and environmental conservation in communities around the world.
             </p>
             <div className="flex items-center space-x-4 mb-6">
-              <Avatar className="h-12 w-12 border-2 border-javaquest-blue">
+              <Avatar className="h-12 w-12 border-2 border-primary">
                 <AvatarImage src="/lovable-uploads/34216a92-321c-41a1-961e-c1a55736da99.png" alt="Naren Nandakumar" />
                 <AvatarFallback>NN</AvatarFallback>
               </Avatar>
-              <Avatar className="h-12 w-12 border-2 border-javaquest-blue">
+              <Avatar className="h-12 w-12 border-2 border-primary">
                 <AvatarImage src="/lovable-uploads/aae73d51-3df0-4bc7-961a-31d1e3f50854.png" alt="Manu Pradeep" />
                 <AvatarFallback>MP</AvatarFallback>
               </Avatar>
-              <span className="text-sm text-gray-500">Our founders</span>
+              <span className="text-sm text-muted-foreground">Our founders</span>
             </div>
-            <Button asChild className="bg-javaquest-blue hover:bg-javaquest-blue/90">
+            <Button asChild variant="default">
               <Link to="/about">Read Our Full Story</Link>
             </Button>
           </div>

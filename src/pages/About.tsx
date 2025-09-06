@@ -76,13 +76,7 @@ const About = () => {
                 <h3 className="text-2xl font-bold text-primary mb-2">Manu Pradeep</h3>
                 <p className="text-muted-foreground mb-4">Co-Founder & Impact Director</p>
                 <p className="text-foreground/80">
-                  Hello, I'm Manu Pradeep, a Junior going to Lone Star High School in Texas. I love to code, 
-                  and help other people. I co-founded JavaQuest in order to help other students to not only 
-                  grasp how coding works, but also help them excel in their future classes. I have taught 
-                  students coding in Java for the past 2 years. I have prior experience in the AP Computer 
-                  Science A, as I took the class and excelled on the test. I've made an online guitar 
-                  simulator, a sound visualizer, a sandbox game, 2D platformer game, and a visualizer of 
-                  the game of life. I hope that everyone I teach will excel in the world of computer science.
+                  Hello, I'm Manu Pradeep, a senior at Lone Star High School in Texas. I have been passionate about programming for several years and have honed my skills through dedicated practice and project development. As the co-founder of JavaQuest, I have spent the past three years teaching Java to students, helping them not only understand the fundamentals of coding but also excel in their coursework, particularly in AP Computer Science A, a course that I excelled in. My notable projects include an online guitar simulator, a sound visualizer, a sandbox game, a 2D platformer game, and a visualizer for Conway's Game of Life. I've also received a Java certification from Certiport as well. I love computer science and the opportunity to brighten those on its path!
                 </p>
               </CardContent>
             </Card>

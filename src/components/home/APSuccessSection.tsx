@@ -8,10 +8,14 @@ const APSuccessSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-8">
           <div className="bg-secondary/10 rounded-lg shadow-sm p-8 max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-primary">AP Computer Science A Success</h2>
+            <h2 className="text-3xl font-bold text-primary">Beyond AP Computer Science A Success</h2>
+            <div className="bg-accent/20 rounded-lg p-4 mt-4 border-l-4 border-accent">
+              <p className="text-foreground font-medium">
+                🚀 <strong>Complete AP CSA Coverage + Industry Skills:</strong> We thoroughly cover all AP Computer Science A concepts to ensure exam success, while also teaching industry-relevant skills including Java graphics, advanced programming concepts, and real-world project development that prepare you for success in the tech industry.
+              </p>
+            </div>
             <p className="text-muted-foreground max-w-3xl mx-auto mt-3">
-              Our curriculum is specially designed to help students excel in the AP Computer Science A exam
-              while developing practical skills beyond the test requirements.
+              Our curriculum is specially designed to help students excel in the AP Computer Science A exam while developing practical skills beyond the test requirements.
             </p>
           </div>
         </div>
@@ -30,9 +34,9 @@ const APSuccessSection = () => {
           <Card className="shadow-md border-t-4 border-t-javaquest-orange hover:shadow-lg transition-shadow">
             <CardContent className="pt-6">
               <Laptop className="h-10 w-10 text-javaquest-blue mb-4" />
-              <h3 className="font-bold text-lg text-javaquest-blue mb-2">JavaFX Skills</h3>
+              <h3 className="font-bold text-lg text-javaquest-blue mb-2">Java Graphics Skills</h3>
               <p className="text-gray-600">
-                Learn GUI development with JavaFX, going beyond AP requirements to build interactive applications.
+                Learn GUI development with Java graphics, going beyond AP requirements to build interactive applications.
               </p>
             </CardContent>
           </Card>

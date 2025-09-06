@@ -11,14 +11,9 @@ const Hero = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
               Learn Java. <span className="text-accent">Change Lives.</span>
             </h1>
-            <p className="text-lg md:text-xl mb-6 max-w-lg">
+            <p className="text-lg md:text-xl mb-8 max-w-lg">
               Master Java programming with expert instruction while supporting charitable causes around the world.
             </p>
-            <div className="bg-accent/20 backdrop-blur-sm rounded-lg p-4 mb-8 border-l-4 border-accent">
-              <p className="text-white font-medium text-base">
-                🚀 <strong>Beyond AP Computer Science A:</strong> We teach industry-relevant skills including JavaFX, advanced programming concepts, and real-world project development that prepare you for success in the tech industry.
-              </p>
-            </div>
             <div className="flex flex-col sm:flex-row gap-4 mb-4">
               <Button asChild size="lg" className="bg-accent hover:bg-accent/90">
                 <Link to="/programs">Start Learning Today</Link>

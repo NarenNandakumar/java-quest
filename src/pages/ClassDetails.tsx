@@ -68,7 +68,7 @@ const ClassDetails = () => {
                     <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center mx-auto mb-3">
                       <span className="text-primary-foreground font-bold text-lg">UI</span>
                     </div>
-                    <h3 className="text-xl font-bold text-primary">Swing & GUI Design</h3>
+                    <h3 className="text-xl font-bold text-primary">Java Swing & GUI Design</h3>
                   </div>
                   <p className="text-card-foreground text-sm leading-relaxed flex-grow">
                     Create interactive desktop applications with graphical user interfaces, learning event-driven programming and modern UI/UX principles.

@@ -8,7 +8,7 @@ const Programs = () => {
     {
       title: 'Normal Class',
       description: 'Learn Java programming in a group setting with our experienced instructors.',
-      duration: 'October 11th - End of May',
+      duration: 'October 11th 2025 - May 9th 2026',
       schedule: 'Every Saturday, 5:00 PM EST',
       format: 'Group Classes',
       price: '$20/month'
@@ -16,7 +16,7 @@ const Programs = () => {
     {
       title: 'One-on-One Sessions',
       description: 'Personalized Java programming instruction tailored to your specific needs and pace.',
-      duration: 'October 11th - End of May',
+      duration: 'October 11th 2025 - May 9th 2026',
       schedule: 'Every Sunday, 5:00 PM EST',
       format: 'Individual Sessions',
       price: '$35/month'

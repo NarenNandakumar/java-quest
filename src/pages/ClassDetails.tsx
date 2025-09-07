@@ -46,7 +46,7 @@ const ClassDetails = () => {
           <div className="bg-black/20 backdrop-blur-sm rounded-lg p-8 max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Java Class Details & Schedule</h1>
             <p className="text-xl text-white/90">
-              Information about our JavaQuest (Java Quest) class schedules and formats
+              Information about our class schedules and formats
             </p>
           </div>
         </div>

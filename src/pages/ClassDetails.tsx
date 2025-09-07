@@ -241,12 +241,6 @@ const ClassDetails = () => {
                   </p>
                 </div>
               </div>
-              
-              <div className="mt-8 bg-muted/30 rounded-lg p-4 border border-border">
-                <p className="text-center text-muted-foreground text-sm">
-                  <span className="font-semibold">Note:</span> Advanced topics are integrated throughout the curriculum and may vary based on class pace and student interest.
-                </p>
-              </div>
             </div>
           </div>
         </div>

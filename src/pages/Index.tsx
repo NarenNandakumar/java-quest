@@ -18,7 +18,7 @@ const Index = () => {
     "alternateName": "Java Quest",
     "description": "Teaching Java programming while making a difference in the world",
     "url": "https://javaquest.lovable.app",
-    "logo": "https://javaquest.lovable.app/favicon.ico",
+    "logo": "https://javaquest.lovable.app/lovable-uploads/f104f99c-7190-488a-a49a-4a81131ff191.png",
     "sameAs": [],
     "contactPoint": {
       "@type": "ContactPoint",

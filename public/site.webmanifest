@@ -1,0 +1,17 @@
+{
+  "name": "JavaQuest",
+  "short_name": "JavaQuest",
+  "description": "Learn Java Programming while making a difference in the world",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a1a1a",
+  "icons": [
+    {
+      "src": "/lovable-uploads/f104f99c-7190-488a-a49a-4a81131ff191.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -67,7 +67,7 @@ const ClassDetails = () => {
               <CardContent className="p-6 flex flex-col flex-grow">
                 <div className="space-y-4 mt-4 flex-grow">
                   <div className="bg-secondary/20 rounded-lg p-3 border-l-4 border-primary">
-                    <p className="text-foreground"><strong>Duration:</strong> October 11th - End of May</p>
+                    <p className="text-foreground"><strong>Duration:</strong> October 11th 2025 - May 9th 2026</p>
                   </div>
                   <div className="bg-secondary/20 rounded-lg p-3 border-l-4 border-primary">
                     <p className="text-foreground"><strong>Day:</strong> Every Saturday</p>
@@ -114,7 +114,7 @@ const ClassDetails = () => {
               <CardContent className="p-6 flex flex-col flex-grow">
                 <div className="space-y-4 mt-4 flex-grow">
                   <div className="bg-secondary/15 rounded-lg p-3 border-l-4 border-secondary">
-                    <p className="text-foreground"><strong>Duration:</strong> October 11th - End of May</p>
+                    <p className="text-foreground"><strong>Duration:</strong> October 11th 2025 - May 9th 2026</p>
                   </div>
                   <div className="bg-secondary/15 rounded-lg p-3 border-l-4 border-secondary">
                     <p className="text-foreground"><strong>Day:</strong> Every Sunday</p>

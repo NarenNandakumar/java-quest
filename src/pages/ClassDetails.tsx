@@ -52,6 +52,58 @@ const ClassDetails = () => {
         </div>
       </section>
       
+      {/* Beyond Standard Curriculum Section */}
+      <section className="py-16 bg-muted/20">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-card border border-border rounded-lg p-8 shadow-lg">
+              <h2 className="text-3xl font-bold text-primary mb-6 text-center">Beyond Standard Curriculum</h2>
+              <p className="text-muted-foreground text-center mb-8 text-lg">
+                While mastering AP Computer Science A concepts, students also explore industry-relevant technologies.
+              </p>
+              
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="bg-primary/5 rounded-lg p-6 border border-primary/20 flex flex-col">
+                  <div className="text-center mb-4 h-24 flex flex-col justify-center">
+                    <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center mx-auto mb-3">
+                      <span className="text-primary-foreground font-bold text-lg">UI</span>
+                    </div>
+                    <h3 className="text-xl font-bold text-primary">Java Swing & GUI Design</h3>
+                  </div>
+                  <p className="text-card-foreground text-sm leading-relaxed flex-grow">
+                    Create interactive desktop applications with graphical user interfaces, learning event-driven programming and modern UI/UX principles.
+                  </p>
+                </div>
+                
+                <div className="bg-secondary/5 rounded-lg p-6 border border-secondary/20 flex flex-col">
+                  <div className="text-center mb-4 h-24 flex flex-col justify-center">
+                    <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center mx-auto mb-3">
+                      <span className="text-secondary-foreground font-bold text-lg">⚙️</span>
+                    </div>
+                    <h3 className="text-xl font-bold text-secondary">Gradle Build System</h3>
+                  </div>
+                  <p className="text-card-foreground text-sm leading-relaxed flex-grow">
+                    Master professional dependency management, project automation, and software distribution using industry-standard build tools.
+                  </p>
+                </div>
+                
+                <div className="bg-accent/5 rounded-lg p-6 border border-accent/20 flex flex-col">
+                  <div className="text-center mb-4 h-24 flex flex-col justify-center">
+                    <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center mx-auto mb-3">
+                      <span className="text-accent-foreground font-bold text-lg">📊</span>
+                    </div>
+                    <h3 className="text-xl font-bold text-accent">Advanced Data Structures</h3>
+                  </div>
+                  <p className="text-card-foreground text-sm leading-relaxed flex-grow">
+                    Dive deep into stacks, queues, hash maps, and algorithm optimization for enhanced problem-solving capabilities.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
       {/* Class details section */}
       <section className="py-16">
         <div className="container mx-auto px-4">
@@ -190,58 +242,6 @@ const ClassDetails = () => {
                 </div>
               </CardContent>
             </Card>
-          </div>
-        </div>
-      </section>
-      
-      {/* Advanced Topics Section */}
-      <section className="py-16 bg-muted/20">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="bg-card border border-border rounded-lg p-8 shadow-lg">
-              <h2 className="text-3xl font-bold text-primary mb-6 text-center">Beyond Standard Curriculum</h2>
-              <p className="text-muted-foreground text-center mb-8 text-lg">
-                While mastering AP Computer Science A fundamentals, students also explore industry-relevant technologies.
-              </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="bg-primary/5 rounded-lg p-6 border border-primary/20 flex flex-col">
-                  <div className="text-center mb-4 h-24 flex flex-col justify-center">
-                    <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center mx-auto mb-3">
-                      <span className="text-primary-foreground font-bold text-lg">UI</span>
-                    </div>
-                    <h3 className="text-xl font-bold text-primary">Java Swing & GUI Design</h3>
-                  </div>
-                  <p className="text-card-foreground text-sm leading-relaxed flex-grow">
-                    Create interactive desktop applications with graphical user interfaces, learning event-driven programming and modern UI/UX principles.
-                  </p>
-                </div>
-                
-                <div className="bg-secondary/5 rounded-lg p-6 border border-secondary/20 flex flex-col">
-                  <div className="text-center mb-4 h-24 flex flex-col justify-center">
-                    <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center mx-auto mb-3">
-                      <span className="text-secondary-foreground font-bold text-lg">⚙️</span>
-                    </div>
-                    <h3 className="text-xl font-bold text-secondary">Gradle Build System</h3>
-                  </div>
-                  <p className="text-card-foreground text-sm leading-relaxed flex-grow">
-                    Master professional dependency management, project automation, and software distribution using industry-standard build tools.
-                  </p>
-                </div>
-                
-                <div className="bg-accent/5 rounded-lg p-6 border border-accent/20 flex flex-col">
-                  <div className="text-center mb-4 h-24 flex flex-col justify-center">
-                    <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center mx-auto mb-3">
-                      <span className="text-accent-foreground font-bold text-lg">📊</span>
-                    </div>
-                    <h3 className="text-xl font-bold text-accent">Advanced Data Structures</h3>
-                  </div>
-                  <p className="text-card-foreground text-sm leading-relaxed flex-grow">
-                    Dive deep into stacks, queues, hash maps, and algorithm optimization for enhanced problem-solving capabilities.
-                  </p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>

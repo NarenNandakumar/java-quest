@@ -26,10 +26,10 @@ const Features = () => {
   ];
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-muted/20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <div className="bg-white rounded-lg shadow-sm p-8 max-w-3xl mx-auto">
+          <div className="bg-card border border-border rounded-lg shadow-lg p-8 max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold text-primary mb-4">Why Choose JavaQuest?</h2>
             <p className="text-muted-foreground">
               Our unique approach combines quality programming education with meaningful social impact.
@@ -39,7 +39,7 @@ const Features = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
-            <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-shadow">
+            <Card key={index} className="bg-card border border-border shadow-lg hover:shadow-xl transition-shadow">
               <CardHeader>
                 <div className="text-4xl mb-4">{feature.icon}</div>
                 <CardTitle className="text-xl text-javaquest-blue">{feature.title}</CardTitle>

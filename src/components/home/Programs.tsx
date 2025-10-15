@@ -8,7 +8,7 @@ const Programs = () => {
     {
       title: 'Normal Class',
       description: 'Learn Java programming in a group setting with our experienced instructors.',
-      duration: 'Oct 11, 2025 - May 9, 2026',
+      duration: 'Nov 22, 2025 - May 9, 2026',
       schedule: 'Every Saturday, 5:00 PM EST',
       format: 'Group Classes',
       price: '$20/month'
@@ -16,7 +16,7 @@ const Programs = () => {
     {
       title: 'One-on-One Sessions',
       description: 'Personalized Java programming instruction tailored to your specific needs and pace.',
-      duration: 'Oct 11, 2025 - May 9, 2026',
+      duration: 'Nov 22, 2025 - May 9, 2026',
       schedule: 'Every Sunday, 5:00 PM EST',
       format: 'Individual Sessions',
       price: '$35/month'
@@ -84,7 +84,7 @@ const Programs = () => {
               <div className="space-y-2">
                 <div className="flex justify-between">
                   <span className="text-gray-600">Date:</span>
-                  <span className="font-medium">October 4th</span>
+                  <span className="font-medium">November 15th</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Time:</span>

@@ -119,7 +119,7 @@ const ClassDetails = () => {
               <CardContent className="p-6 flex flex-col flex-grow">
                 <div className="space-y-4 mt-4 flex-grow">
                   <div className="bg-secondary/20 rounded-lg p-3 border-l-4 border-primary">
-                    <p className="text-foreground"><strong>Duration:</strong> October 11th 2025 - May 9th 2026</p>
+                    <p className="text-foreground"><strong>Duration:</strong> November 22nd 2025 - May 9th 2026</p>
                   </div>
                   <div className="bg-secondary/20 rounded-lg p-3 border-l-4 border-primary">
                     <p className="text-foreground"><strong>Day:</strong> Every Saturday</p>
@@ -166,7 +166,7 @@ const ClassDetails = () => {
               <CardContent className="p-6 flex flex-col flex-grow">
                 <div className="space-y-4 mt-4 flex-grow">
                   <div className="bg-secondary/15 rounded-lg p-3 border-l-4 border-secondary">
-                    <p className="text-foreground"><strong>Duration:</strong> October 11th 2025 - May 9th 2026</p>
+                    <p className="text-foreground"><strong>Duration:</strong> November 22nd 2025 - May 9th 2026</p>
                   </div>
                   <div className="bg-secondary/15 rounded-lg p-3 border-l-4 border-secondary">
                     <p className="text-foreground"><strong>Day:</strong> Every Sunday</p>
@@ -213,7 +213,7 @@ const ClassDetails = () => {
               <CardContent className="p-6 flex flex-col flex-grow">
                 <div className="space-y-4 mt-4 flex-grow">
                   <div className="bg-accent/10 rounded-lg p-3 border-l-4 border-accent">
-                    <p className="text-foreground"><strong>Date:</strong> October 4th</p>
+                    <p className="text-foreground"><strong>Date:</strong> November 15th</p>
                   </div>
                   <div className="bg-accent/10 rounded-lg p-3 border-l-4 border-accent">
                     <p className="text-foreground"><strong>Time:</strong> 5:00 PM EST</p>
